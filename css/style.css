@@ -8,7 +8,7 @@ html{
 }
 body{
     font-family: 'Raleway' sans-serif;
-
+ overflow-x: hidden;
 }
 p{
     font-size: 14px;
@@ -51,12 +51,14 @@ a {
 }
 /*== Generic section end==*/
 /*==navabar start==*/
+
 .navbar-default{
     background-color: transparent;
     border:1px solid #444;
     z-index: 110;
     transition: all 1s;
 }
+
 
 .navright{
     display: flex;
@@ -543,4 +545,9 @@ transition: all 1s;
     font-size: 25px;
 }
 /*Footer Section End*/
+/*screen*/
+#screen-image{
+    border: 0px;
+    border-radius: 0px;
+}
 
